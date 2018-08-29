@@ -20,7 +20,7 @@ goto Next
 echo.
 set /p m=Target IP: 
 echo.
-set /p n=Paccket Size:
+set /p n=Packet Size:
 echo.
 color 0c
 echo ===================================
